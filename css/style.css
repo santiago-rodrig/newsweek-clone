@@ -123,15 +123,15 @@ nav.d-flex>* {
 
 /* CULTURE & TRAVEL */
 
-body>section:first-of-type div.col-12>div {
+div.row>section:first-of-type div.col-12>div {
   background-color: var(--culture-background);
 }
 
-body>section:first-of-type h3.text-muted {
+div.row>section:first-of-type h3.text-muted {
   color: rgba(3, 3, 3, .5) !important;
 }
 
-body>section:first-of-type button.btn {
+div.row>section:first-of-type button.btn {
   background-color: var(--culture-button-background);
   color: black;
   font-size: 1.3rem;
