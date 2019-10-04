@@ -14,6 +14,7 @@
   --black-preferences: #333;
   --newsletter-background: #f4f5f6;
   --newsletter-button: #666666;
+  --magazine-button: #dbdcdd;
 }
 
 /* HEADINGS */
@@ -76,6 +77,15 @@ h3.category {
 
 h3.insight {
   color: var(--insight-blue);
+}
+
+h3.red-white {
+  background-color: var(--main-red);
+  color: white;
+}
+
+h3.white-red {
+  color: var(--main-red);
 }
 
 h5 {
@@ -180,19 +190,17 @@ div.row>section:nth-of-type(4)>article.d-flex>h4 {
   flex: 1;
 }
 
-/* NEWSLETTER */
+/* FAKE LOGO */
 
-div.newsletter {
-  background-color: var(--newsletter-background);
-}
-
-div.newsletter div.fake-logo {
-  flex-basis: 23px;
+span.fake-logo {
+  position: relative;
+  width: 23px;
   height: 28px;
   background-color: var(--main-red);
+  display: inline-block;
 }
 
-div.newsletter div.fake-logo::after {
+span.fake-logo::after {
   content: 'N';
   color: white;
   position: absolute;
@@ -203,6 +211,13 @@ div.newsletter div.fake-logo::after {
   font-weight: bold;
   font-family: 'Roboto Condensed', sans-serif;
 }
+
+/* NEWSLETTER */
+
+div.newsletter {
+  background-color: var(--newsletter-background);
+}
+
 
 div.newsletter div.d-flex>h3 {
   flex: 1;
@@ -215,4 +230,20 @@ div.newsletter button.btn {
   color: white;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+/* MAGAZINE COVER */
+
+div.magazine button.btn {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: var(--newsletter-background);
+}
+
+/* MAGAZINE CONTENTS */
+
+div.magazine-contents>h3 {
+  font-size: 1.9rem;
+  color: var(--black-preferences);
 }
