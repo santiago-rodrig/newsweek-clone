@@ -1,0 +1,8 @@
+---
+linters:
+  csslint:
+
+files:
+  ignore:
+    - 'css/all.min.css'
+    - 'css/bootstrap.min.css'
