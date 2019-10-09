@@ -8,7 +8,7 @@
   --black-opinion: #555;
   --black-preferences: #333;
   --newsletter-background: #f4f5f6;
-  --newsletter-button: #666666;
+  --newsletter-button: #666;
   --soft-grey: #d9d9d9;
   --soft-grey-1: #999;
   --soft-grey-2: #dbdbdb;
@@ -70,14 +70,14 @@ h4 {
 }
 
 h3.text-muted {
-  color: rgba(3, 3, 3, .4) !important;
+  color: rgba(3, 3, 3, 0.4) !important;
 }
 
 h3.position-absolute {
   bottom: 0;
   left: 0;
   background-color: white;
-  opacity: .9;
+  opacity: 0.9;
 }
 
 h3.category {
@@ -220,7 +220,7 @@ header.large-screens div.logo-and-buttons p {
 }
 
 header.large-screens img {
-    width: 396px;
+  width: 396px;
 }
 
 header.large-screens form {
@@ -238,18 +238,18 @@ input[type='search'] {
 
 header.large-screens span {
   font-size: 2rem;
-  top: -.3rem;
+  top: -0.3rem;
 }
 
 /* MAIN */
 
-main article>a:hover {
+main article > a:hover {
   text-decoration-color: var(--main-red);
 }
 
 /* FEATURED STORIES */
 
-section.featured-stories article>a:hover {
+section.featured-stories article > a:hover {
   text-decoration-color: var(--main-red);
 }
 
@@ -298,38 +298,38 @@ nav button.btn:nth-child(2):hover {
 
 nav button.btn:last-child {
   font-size: 2.6rem;
-  opacity: .7;
+  opacity: 0.7;
   position: relative;
-  top: -.6rem;
+  top: -0.6rem;
 }
 
-nav.d-flex>* {
+nav.d-flex > * {
   flex: 1;
 }
 
 /* MORE STORIES */
 
-aside.more-stories article>a:last-of-type:hover {
+aside.more-stories article > a:last-of-type:hover {
   text-decoration-color: var(--main-red);
 }
 
 /* CULTURE & TRAVEL */
 
-section.culture>div {
+section.culture > div {
   background-color: var(--culture-background);
 }
 
-div.culture-text>a:hover {
+div.culture-text > a:hover {
   text-decoration: none;
 }
 
-div.culture-text>button.btn:hover {
+div.culture-text > button.btn:hover {
   background-color: var(--newsletter-button);
   color: white;
 }
 
 section.culture h3.text-muted {
-  color: rgba(3, 3, 3, .5) !important;
+  color: rgba(3, 3, 3, 0.5) !important;
 }
 
 section.culture button.btn {
@@ -366,7 +366,7 @@ div.single-insight {
 
 /* MAGAZINE */
 
-div.magazine>div:first-child h3 {
+div.magazine > div:first-child h3 {
   font-size: 2rem;
 }
 
@@ -391,11 +391,11 @@ div.magazine-head button.btn:hover {
   background-color: var(--soft-grey-2);
 }
 
-div.magazine-text>a:hover {
+div.magazine-text > a:hover {
   text-decoration: none;
 }
 
-div.magazine article>a:last-child {
+div.magazine article > a:last-child {
   text-decoration-color: var(--main-red);
 }
 
@@ -405,48 +405,32 @@ div.magazine article h2 {
 
 /* EDITOR */
 
-section.editor>h3 {
+section.editor > h3 {
   font-size: 1.9rem;
 }
 
-section.editor>*[class|='editor-contents'] {
-  display: flex;
-}
-
-section.editor>*[class|='editor-contents']>* {
-  flex: 1;
-}
-
-section.editor article>a:hover {
+section.editor article > a:hover {
   text-decoration-color: var(--main-red);
 }
 
 /* SLIDESHOWS */
 
-section.slideshows>h3 {
+section.slideshows > h3 {
   font-size: 1.9rem;
 }
 
-section.slideshows div.wrapper>*[class|='slideshows-contents'] {
-  display: flex;
-}
-
-section.slideshows div.wrapper>*[class|='slideshows-contents']>* {
-  flex: 1;
-}
-
-section.slideshows article>a:hover {
+section.slideshows article > a:hover {
   text-decoration-color: var(--main-red);
 }
 
 /* OPINION */
 
-section.opinion>article.d-flex>img {
+section.opinion > article.d-flex > img {
   flex: 0 1 63px;
   height: 63px;
 }
 
-section.opinion>article.d-flex>div {
+section.opinion > article.d-flex > div {
   flex: 1;
 }
 
@@ -460,19 +444,19 @@ div.opinion-text a h4:hover {
 
 /* LATEST NEWS */
 
-section.latest-news>article.d-flex>a:first-child {
+section.latest-news > article.d-flex>a:first-child {
   flex-basis: 135px;
 }
 
-section.latest-news>article.d-flex>a:last-child {
+section.latest-news > article.d-flex>a:last-child {
   flex: 1;
 }
 
-section.latest-news>article>a:last-child:hover {
+section.latest-news > article>a:last-child:hover {
   text-decoration: none;
 }
 
-section.latest-news>article>a:last-child>h4:hover {
+section.latest-news > article > a:last-child > h4:hover {
   color: var(--main-red);
 }
 
@@ -504,7 +488,7 @@ div.newsletter {
   background-color: var(--newsletter-background);
 }
 
-div.newsletter div.d-flex>h3 {
+div.newsletter div.d-flex > h3 {
   flex: 1;
   font-size: 1.9rem;
 }
@@ -557,27 +541,27 @@ div.newsletter {
 
 /* CATEGORIES */
 
-section.categories aside>article>a:first-child {
+section.categories aside > article > a:first-child {
   flex-basis: 130px;
 }
 
-section.categories aside>article>a:last-child {
+section.categories aside > article > a:last-child {
   flex: 1;
 }
 
-div.categories-contents>article>a:last-child:hover {
+div.categories-contents > article > a:last-child:hover {
   text-decoration-color: var(--main-red);
 }
 
-div.categories-contents>aside>article>a:last-child {
+div.categories-contents > aside > article > a:last-child {
   text-decoration: none;
 }
 
-div.categories-contents>aside>article>a:last-child h4:hover {
+div.categories-contents > aside > article > a:last-child h4:hover {
   color: var(--main-red);
 }
 
-section.categories>h2.red {
+section.categories > h2.red {
   font-size: 2.2rem;
 }
 
@@ -588,18 +572,19 @@ section.categories>h2.red {
     text-align: left !important;
     padding-left: 6rem !important;
   }
-  div.subscribe article>div.subscribe-images>img.position-relative {
+
+  div.subscribe article > div.subscribe-images > img.position-relative {
     right: -6rem !important;
   }
 }
 
-div.subscribe article>div.subscribe-images>img.position-absolute {
+div.subscribe article > div.subscribe-images > img.position-absolute {
   top: 50%;
   left: calc(50% - 3rem);
   transform: translate(-50%, -50%);
 }
 
-div.subscribe article>div.subscribe-images>img.position-relative {
+div.subscribe article > div.subscribe-images > img.position-relative {
   right: -9rem;
   bottom: -2rem;
   z-index: 1;
@@ -757,7 +742,7 @@ footer ul.page-links li {
   font-size: 1.4rem;
   padding-right: 1rem;
   padding-left: 1rem;
-  margin-bottom: .6rem;
+  margin-bottom: 0.6rem;
 }
 
 footer ul.page-links li a {
@@ -788,7 +773,7 @@ footer div.site-pages div ul.edition-links li {
   font-size: 1.4rem;
   padding-right: 1rem;
   padding-left: 1rem;
-  margin-bottom: .6rem;
+  margin-bottom: 0.6rem;
 }
 
 footer div.site-pages div ul.edition-links li a {
