@@ -147,13 +147,6 @@ div.insight-text a:hover {
   text-decoration-color: var(--main-red);
 }
 
-div.magazine-head button.btn {
-  font-size: 2rem;
-  text-transform: uppercase;
-  font-weight: bold;
-  background-color: var(--newsletter-background);
-}
-
 div.culture-text > a:hover {
   text-decoration: none;
 }
@@ -164,6 +157,13 @@ nav button.btn {
   font-weight: bold;
   text-transform: uppercase;
   height: 2.6rem;
+}
+
+div.magazine-head button.btn {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: var(--newsletter-background);
 }
 
 @media only screen and (min-width: 720px) {
@@ -328,10 +328,6 @@ div.magazine-text > a:hover {
   text-decoration: none;
 }
 
-section.featured-stories article > a:hover {
-  text-decoration-color: var(--main-red);
-}
-
 div.magazine article h2 {
   font-size: 1.6rem;
 }
@@ -361,17 +357,13 @@ div.opinion-text a:hover {
   text-decoration: none;
 }
 
-header.large-screens ul a:hover {
-  text-decoration: none;
-  color: var(--main-red);
-}
-
 section.featured-stories article > a:hover {
   text-decoration-color: var(--main-red);
 }
 
-aside.more-stories article > a:last-of-type:hover {
-  text-decoration-color: var(--main-red);
+header.large-screens ul a:hover {
+  text-decoration: none;
+  color: var(--main-red);
 }
 
 div.magazine article > a:last-child {
@@ -383,6 +375,10 @@ section.editor article > a:hover {
 }
 
 section.slideshows article > a:hover {
+  text-decoration-color: var(--main-red);
+}
+
+aside.more-stories article > a:last-of-type:hover {
   text-decoration-color: var(--main-red);
 }
 
@@ -428,6 +424,7 @@ span.fake-logo::after {
 
 div.newsletter {
   background-color: var(--newsletter-background);
+  width: 100%;
 }
 
 div.newsletter div.d-flex > h3 {
@@ -471,10 +468,6 @@ div.newsletter button.btn:hover {
 
 div.newsletter a:last-child:hover {
   text-decoration: none;
-}
-
-div.newsletter {
-  width: 100%;
 }
 
 @media only screen and (min-width: 720px) {
@@ -681,9 +674,6 @@ footer ul.social-links li:nth-child(4) {
 
 footer ul.social-links li:last-child {
   font-size: 2.5rem;
-}
-
-footer ul.social-links li:last-child {
   margin-right: 0;
 }
 
