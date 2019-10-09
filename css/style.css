@@ -421,10 +421,6 @@ section.editor article>a:hover {
   text-decoration-color: var(--main-red);
 }
 
-@media only screen and (min-width: 720px) and (max-width: 1200px) {
-
-}
-
 /* SLIDESHOWS */
 
 section.slideshows>h3 {
