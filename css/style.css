@@ -134,10 +134,6 @@ section.culture > div {
   background-color: var(--culture-background);
 }
 
-div.insight-text a:hover {
-  text-decoration-color: var(--main-red);
-}
-
 header.large-screens ul a {
   color: black;
   font-size: 2rem;
@@ -147,30 +143,27 @@ header.large-screens ul a {
   padding-right: 2.5rem;
 }
 
+div.insight-text a:hover {
+  text-decoration-color: var(--main-red);
+}
+
+div.magazine-head button.btn {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: var(--newsletter-background);
+}
+
 div.culture-text > a:hover {
   text-decoration: none;
 }
 
-header.large-screens button.btn {
-  font-size: 1.9rem;
-  font-weight: bold;
-  position: relative;
-  z-index: 1;
-}
-
-div.culture-text > button.btn:hover {
-  background-color: var(--newsletter-button);
+nav button.btn {
   color: white;
-}
-
-section.culture h3.text-muted {
-  color: rgba(3, 3, 3, 0.5) !important;
-}
-
-section.culture button.btn {
-  background-color: var(--culture-button-background);
-  color: black;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  height: 2.6rem;
 }
 
 @media only screen and (min-width: 720px) {
@@ -183,22 +176,10 @@ section.culture button.btn {
   }
 }
 
-nav {
-  background-color: var(--main-red);
-  padding-top: 1.2rem;
-  padding-bottom: 1.2rem;
-}
-
-nav img {
-  width: 132px;
-}
-
-nav button.btn {
-  color: white;
-  font-size: 1.6rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  height: 2.6rem;
+section.culture button.btn {
+  background-color: var(--culture-button-background);
+  color: black;
+  font-size: 1.3rem;
 }
 
 nav button.btn:hover {
@@ -212,12 +193,29 @@ nav button.btn:last-child {
   top: -0.6rem;
 }
 
-nav button.btn:nth-child(2) {
-  background-color: white;
-  color: var(--main-red);
+header.large-screens button.btn {
+  font-size: 1.9rem;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
 }
 
-nav button.btn:nth-child(2):hover {
+section.culture h3.text-muted {
+  color: rgba(3, 3, 3, 0.5) !important;
+}
+
+nav {
+  background-color: var(--main-red);
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+}
+
+nav img {
+  width: 132px;
+}
+
+nav button.btn:nth-child(2) {
+  background-color: white;
   color: var(--main-red);
 }
 
@@ -237,20 +235,6 @@ header.large-screens {
 
 header.large-screens nav {
   background-color: white;
-}
-
-header.large-screens button.btn:first-of-type {
-  color: white;
-}
-
-header.large-screens button.btn:last-of-type {
-  color: var(--main-red);
-  background-color: white;
-}
-
-header.large-screens ul a:hover {
-  text-decoration: none;
-  color: var(--main-red);
 }
 
 header.large-screens div.logo-and-buttons {
@@ -310,14 +294,6 @@ header.large-screens span {
   top: -0.3rem;
 }
 
-section.featured-stories article > a:hover {
-  text-decoration-color: var(--main-red);
-}
-
-aside.more-stories article > a:last-of-type:hover {
-  text-decoration-color: var(--main-red);
-}
-
 div.insight-text {
   padding: 2rem;
 }
@@ -338,10 +314,6 @@ div.single-insight {
   }
 }
 
-div.magazine > div:first-child h3 {
-  font-size: 2rem;
-}
-
 @media only screen and (min-width: 720px) {
   div.magazine article h2.heavy {
     font-size: 2.1rem;
@@ -352,22 +324,11 @@ div.magazine > div:first-child h3 {
   }
 }
 
-div.magazine-head button.btn {
-  font-size: 2rem;
-  text-transform: uppercase;
-  font-weight: bold;
-  background-color: var(--newsletter-background);
-}
-
-div.magazine-head button.btn:hover {
-  background-color: var(--soft-grey-2);
-}
-
 div.magazine-text > a:hover {
   text-decoration: none;
 }
 
-div.magazine article > a:last-child {
+section.featured-stories article > a:hover {
   text-decoration-color: var(--main-red);
 }
 
@@ -379,16 +340,12 @@ section.editor > h3 {
   font-size: 1.9rem;
 }
 
-section.editor article > a:hover {
-  text-decoration-color: var(--main-red);
-}
-
 section.slideshows > h3 {
   font-size: 1.9rem;
 }
 
-section.slideshows article > a:hover {
-  text-decoration-color: var(--main-red);
+div.magazine > div:first-child h3 {
+  font-size: 2rem;
 }
 
 section.opinion > article.d-flex > img {
@@ -402,6 +359,31 @@ section.opinion > article.d-flex > div {
 
 div.opinion-text a:hover {
   text-decoration: none;
+}
+
+header.large-screens ul a:hover {
+  text-decoration: none;
+  color: var(--main-red);
+}
+
+section.featured-stories article > a:hover {
+  text-decoration-color: var(--main-red);
+}
+
+aside.more-stories article > a:last-of-type:hover {
+  text-decoration-color: var(--main-red);
+}
+
+div.magazine article > a:last-child {
+  text-decoration-color: var(--main-red);
+}
+
+section.editor article > a:hover {
+  text-decoration-color: var(--main-red);
+}
+
+section.slideshows article > a:hover {
+  text-decoration-color: var(--main-red);
 }
 
 div.opinion-text a h4:hover {
@@ -459,6 +441,28 @@ div.newsletter button.btn {
   color: white;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+div.culture-text > button.btn:hover {
+  background-color: var(--newsletter-button);
+  color: white;
+}
+
+nav button.btn:nth-child(2):hover {
+  color: var(--main-red);
+}
+
+header.large-screens button.btn:first-of-type {
+  color: white;
+}
+
+header.large-screens button.btn:last-of-type {
+  color: var(--main-red);
+  background-color: white;
+}
+
+div.magazine-head button.btn:hover {
+  background-color: var(--soft-grey-2);
 }
 
 div.newsletter button.btn:hover {
