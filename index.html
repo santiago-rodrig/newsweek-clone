@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="santiago-rodrig">
+  <meta name="description" content="Newsweek page clone">
+  <title>Newsweek</title>
+  <link href="https://fonts.googleapis.com/css?family=Lora|Roboto+Condensed:400,700&display=swap" rel="stylesheet">
+  <script src="javascript/jquery.js"></script>
+  <script src="javascript/bootstrap.bundle.min.js"></script>
+  <script src="javascript/all.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  <header class="fixed-top d-lg-none">
+    <nav class="d-flex align-items-center px-3">
+      <div>
+        <a href="#"><img src="images/logo.svg" alt="Newsweek"></a>
+      </div>
+      <div class="d-flex justify-content-end">
+        <button class="btn p-0 px-1 rounded-0" type="button">sign in</button>
+        <button class="btn p-0 px-1 rounded-0 px-md-2" type="button">subscribe <i class="fas fa-chevron-right d-none d-md-inline ml-2"></i></button>
+        <button class="btn p-0 ml-3 ml-md-5 mr-md-3" type="button"><i class="fas fa-bars"></i></button>
+      </div>
+    </nav>
+  </header>
+  <header class="large-screens d-none d-lg-block pt-4">
+    <div class="logo-and-buttons d-flex justify-content-between align-items-end px-3 pb-3">
+      <p class="ml-4">Tue, Oct 08, 2019</p>
+      <a href="#"><img src="images/logo.svg" alt="Newsweek"></a>
+      <div class="button-wrapper">
+        <button class="btn rounded-0">SIGN IN</button>
+        <button class="btn rounded-0 p-0 px-2">SUBSCRIBE <i class="fas fa-chevron-right"></i></button>
+      </div>
+    </div>
+    <nav class="border-bottom">
+      <ul class="d-flex justify-content-around list-unstyled px-4 align-items-center">
+        <li><a href="#">U.S</a></li>
+        <li><a href="#">World</a></li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">Tech &amp; Science</a></li>
+        <li><a href="#">Culture</a></li>
+        <li><a href="#">Newsgeek</a></li>
+        <li><a href="#">Sports</a></li>
+        <li><a href="#">Health</a></li>
+        <li><a href="#">Opinion</a></li>
+        <li><a href="#">Vantage</a></li>
+        <li>
+          <form action="#" method="post" class="position-relative">
+            <input type="search" placeholder="Search">
+            <span class="position-absolute"><i class="fas fa-search"></i></span>
+          </form>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container-fluid px-5">
+    <div class="row">
+      <div class="order-2 order-md-1 col-lg-4 col-md-6">
+        <section class="mt-4 featured-stories">
+          <h3 class="text-muted pb-2">featured stories</h3>
+          <article class="mb-4">
+            <div class="position-relative">
+              <a href="#"><img class="img-fluid" src="images/featured-article.jpg" alt="Nuclar bomb"></a>
+              <a href="#"><h3 class="position-absolute m-0 px-4 py-2 category">tech & science</h3></a>
+            </div>
+            <a href="#"><h2 class="heavy mt-3">nuclear war between india and pakistan could kill twice as many as WWII</h2></a>
+            <p>The study quantifies just how catastrophic and wide-reaching a nuclear conflict between the two nations would be.</p>
+          </article>
+          <article class="mb-4">
+            <div class="position-relative">
+              <a href="#"><img class="img-fluid" src="images/featured-article.jpg" alt="Nuclar bomb"></a>
+              <a href="#"><h3 class="position-absolute m-0 px-4 py-2 category">tech & science</h3></a>
+            </div>
+            <a href="#"><h2 class="heavy mt-3">nuclear war between india and pakistan could kill twice as many as WWII</h2></a>
+            <p>The study quantifies just how catastrophic and wide-reaching a nuclear conflict between the two nations would be.</p>
+          </article>
+          <article class="mb-4">
+            <div class="position-relative">
+              <a href="#"><img class="img-fluid" src="images/featured-article.jpg" alt="Nuclar bomb"></a>
+              <a href="#"><h3 class="position-absolute m-0 px-4 py-2 category">tech & science</h3></a>
+            </div>
+            <a href="#"><h2 class="heavy mt-3">nuclear war between india and pakistan could kill twice as many as WWII</h2></a>
+            <p>The study quantifies just how catastrophic and wide-reaching a nuclear conflict between the two nations would be.</p>
+          </article>
+          <article>
+            <div class="position-relative">
+              <a href="#"><img class="img-fluid" src="images/featured-article.jpg" alt="Nuclar bomb"></a>
+              <a href="#"><h3 class="position-absolute m-0 px-4 py-2 category">tech & science</h3></a>
+            </div>
+            <a href="#"><h2 class="heavy mt-3">nuclear war between india and pakistan could kill twice as many as WWII</h2></a>
+            <p>The study quantifies just how catastrophic and wide-reaching a nuclear conflict between the two nations would be.</p>
+          </article>
+        </section>
+        <div class="py-3 double-insight">
+          <article class="mb-5">
+            <div class="position-relative">
+              <a href="#"><img class="img-fluid" src="images/insight-article.jpg" alt="Three persons walking out of building"></a>
+              <h3 class="insight position-absolute m-0 px-4 py-2">sponsored insight</h3>
+            </div>
+            <div class="border pt-4 insight-text">
+              <a href="#"><h2 class="heavy">why you should be an engineer &amp; why ABET is important to that path.</h2></a>
+              <p>Do you dream of changing the world? Dow you want to make a practical difference in people's lives? Engineers do both these things. Find out how to join them.</p>
+            </div>
+          </article>
+          <article>
+            <div class="position-relative">
+              <a href="#"><img class="img-fluid" src="images/insight-article.jpg" alt="Three persons walking out of building"></a>
+              <h3 class="insight position-absolute m-0 px-4 py-2">sponsored insight</h3>
+            </div>
+            <div class="border pt-4 insight-text">
+              <a href="#"><h2 class="heavy">why you should be an engineer &amp; why ABET is important to that path.</h2></a>
+              <p>Do you dream of changing the world? Dow you want to make a practical difference in people's lives? Engineers do both these things. Find out how to join them.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 order-1 order-md-2">
+        <div class="row px-3">
+          <main class="order-1 py-4 col-12 px-0">
+            <article>
+              <h3 class="text-muted pb-3">top story</h3>
+              <div class="position-relative">
+                <a href="#"><img class="img-fluid" src="images/main-article.png" alt="Woman standing at pictures of dead mans"></a>
+                <h3 class="position-absolute m-0 px-4 py-2 category">news</h3>
+              </div>
+              <a href="#"><h1 class="pt-3">thirteen ukranian soldiers died during trump freeze on military aid</h1></a>
+              <p>At least 13 men were killed in fighting in the east of the country between July 18—when the aid freeze was communicated to the State and Defense departments—and its release on September 11.</p>
+            </article>
+          </main>
+          <section class="order-3 order-md-2 mb-4 culture col-12">
+            <div class="pt-3 pb-5 row">
+              <h3 class="col-12 text-muted pb-2 pl-3">culture & travel</h3>
+              <article class="col-12 col-md-6 mb-5 px-0 pr-md-3">
+                <a href="#"><img class="img-fluid" src="images/culture-section.jpg" alt="Helicopter flying over river"></a>
+                <div class="mt-3 px-3 culture-text">
+                  <a href="#"><h2>fly to the airport? uber copter offers flights from manhattan to JFK</h2></a>
+                  <p class="text-muted">Rushing to make your flight? Now you can hop on a Uber Copter and get from Lower Manhattan to JFK in eight minutes or less</p>
+                  <button type="button" class="btn px-2 py-0 rounded-0">Uber</button>
+                </div>
+              </article>
+              <article class="col-12 col-md-6 mb-5 px-0 pl-md-3">
+                <a href="#"><img class="img-fluid" src="images/culture-section.jpg" alt="Helicopter flying over river"></a>
+                <div class="mt-3 px-3 culture-text">
+                  <a href="#"><h2>fly to the airport? uber copter offers flights from manhattan to JFK</h2></a>
+                  <p class="text-muted">Rushing to make your flight? Now you can hop on a Uber Copter and get from Lower Manhattan to JFK in eight minutes or less</p>
+                  <button type="button" class="btn px-2 py-0 rounded-0">Uber</button>
+                </div>
+              </article>
+              <article class="col-12 col-md-6 mb-5 px-0 pr-md-3">
+                <a href="#"><img class="img-fluid" src="images/culture-section.jpg" alt="Helicopter flying over river"></a>
+                <div class="mt-3 px-3 culture-text">
+                  <a href="#"><h2>fly to the airport? uber copter offers flights from manhattan to JFK</h2></a>
+                  <p class="text-muted">Rushing to make your flight? Now you can hop on a Uber Copter and get from Lower Manhattan to JFK in eight minutes or less</p>
+                  <button type="button" class="btn px-2 py-0 rounded-0">Uber</button>
+                </div>
+              </article>
+              <article class="col-12 col-md-6 px-0 pl-md-3">
+                <a href="#"><img class="img-fluid" src="images/culture-section.jpg" alt="Helicopter flying over river"></a>
+                <div class="mt-3 px-3 culture-text">
+                  <a href="#"><h2>fly to the airport? uber copter offers flights from manhattan to JFK</h2></a>
+                  <p class="text-muted">Rushing to make your flight? Now you can hop on a Uber Copter and get from Lower Manhattan to JFK in eight minutes or less</p>
+                  <button type="button" class="btn px-2 py-0 rounded-0">Uber</button>
+                </div>
+              </article>
+            </div>
+          </section>
+          <aside class="mb-3 more-stories col-12 order-2 order-md-3 px-0">
+            <h3 class="text-muted pb-3 border-bottom">more stories</h3>
+            <article class="related-article py-3 border-bottom clearfix">
+              <a href="#"><img class="float-left mr-4 mb-2" src="images/related-article.png" alt="Man in suit"></a>
+              <a href="#"><h4>5 major takeaways from state department's ukraine text messages</h4></a>
+              <p>A number of revealing texts between senior U.S. diplomats were released by house commitees exploring President Donald Trump's impeachment</p>
+            </article>
+            <article class="related-article py-3 border-bottom clearfix">
+              <a href="#"><img class="float-left mr-4 mb-2" src="images/related-article.png" alt="Man in suit"></a>
+              <a href="#"><h4>5 major takeaways from state department's ukraine text messages</h4></a>
+              <p>A number of revealing texts between senior U.S. diplomats were released by house commitees exploring President Donald Trump's impeachment</p>
+            </article>
+            <article class="related-article py-3 border-bottom clearfix">
+              <a href="#"><img class="float-left mr-4 mb-2" src="images/related-article.png" alt="Man in suit"></a>
+              <a href="#"><h4>5 major takeaways from state department's ukraine text messages</h4></a>
+              <p>A number of revealing texts between senior U.S. diplomats were released by house commitees exploring President Donald Trump's impeachment</p>
+            </article>
+            <article class="related-article py-3 border-bottom clearfix">
+              <a href="#"><img class="float-left mr-4 mb-2" src="images/related-article.png" alt="Man in suit"></a>
+              <a href="#"><h4>5 major takeaways from state department's ukraine text messages</h4></a>
+              <p>A number of revealing texts between senior U.S. diplomats were released by house commitees exploring President Donald Trump's impeachment</p>
+            </article>
+            <article class="related-article py-3 border-bottom clearfix">
+              <a href="#"><img class="float-left mr-4 mb-2" src="images/related-article.png" alt="Man in suit"></a>
+              <a href="#"><h4>5 major takeaways from state department's ukraine text messages</h4></a>
+              <p>A number of revealing texts between senior U.S. diplomats were released by house commitees exploring President Donald Trump's impeachment</p>
+            </article>
+            <article class="related-article py-3 border-bottom clearfix">
+              <a href="#"><img class="float-left mr-4 mb-2" src="images/related-article.png" alt="Man in suit"></a>
+              <a href="#"><h4>5 major takeaways from state department's ukraine text messages</h4></a>
+              <p>A number of revealing texts between senior U.S. diplomats were released by house commitees exploring President Donald Trump's impeachment</p>
+            </article>
+            <article class="related-article py-3 border-bottom clearfix">
+              <a href="#"><img class="float-left mr-4 mb-2" src="images/related-article.png" alt="Man in suit"></a>
+              <a href="#"><h4>5 major takeaways from state department's ukraine text messages</h4></a>
+              <p>A number of revealing texts between senior U.S. diplomats were released by house commitees exploring President Donald Trump's impeachment</p>
+            </article>
+            <article class="related-article py-3 clearfix">
+              <a href="#"><img class="float-left mr-4 mb-2" src="images/related-article.png" alt="Man in suit"></a>
+              <a href="#"><h4>5 major takeaways from state department's ukraine text messages</h4></a>
+              <p>A number of revealing texts between senior U.S. diplomats were released by house commitees exploring President Donald Trump's impeachment</p>
+            </article>
+          </aside>
+        </div>
+      </div>
+      <div class="order-3 col-lg-4 col-12">
+        <section class="mb-5 mt-4 opinion">
+          <h3 class="text-muted pb-2">opinion</h3>
+          <article class="d-flex border-bottom alig-items-center pb-3">
+            <a href="#"><img src="images/opinion-author.png" alt="Man smiling"></a>
+            <div class="ml-4 opinion-text">
+              <a href="#"><h4>swalwell: trump and his gang no different from street gangs i've prosecuted</h4></a>
+              <h4 class="text-muted mb-0">by eric swalwell</h4>
+            </div>
+          </article>
+          <article class="d-flex border-bottom alig-items-center py-3">
+            <a href="#"><img src="images/opinion-author.png" alt="Man smiling"></a>
+            <div class="ml-4 opinion-text">
+              <a href="#"><h4>swalwell: trump and his gang no different from street gangs i've prosecuted</h4></a>
+              <h4 class="text-muted mb-0">by eric swalwell</h4>
+            </div>
+          </article>
+          <article class="d-flex border-bottom alig-items-center py-3">
+            <a href="#"><img src="images/opinion-author.png" alt="Man smiling"></a>
+            <div class="ml-4 opinion-text">
+              <a href="#"><h4>swalwell: trump and his gang no different from street gangs i've prosecuted</h4></a>
+              <h4 class="text-muted mb-0">by eric swalwell</h4>
+            </div>
+          </article>
+          <article class="d-flex border-bottom alig-items-center py-3">
+            <a href="#"><img src="images/opinion-author.png" alt="Man smiling"></a>
+            <div class="ml-4 opinion-text">
+              <a href="#"><h4>swalwell: trump and his gang no different from street gangs i've prosecuted</h4></a>
+              <h4 class="text-muted mb-0">by eric swalwell</h4>
+            </div>
+          </article>
+          <article class="d-flex border-bottom alig-items-center py-3">
+            <a href="#"><img src="images/opinion-author.png" alt="Man smiling"></a>
+            <div class="ml-4 opinion-text">
+              <a href="#"><h4>swalwell: trump and his gang no different from street gangs i've prosecuted</h4></a>
+              <h4 class="text-muted mb-0">by eric swalwell</h4>
+            </div>
+          </article>
+          <article class="d-flex alig-items-center py-3">
+            <a href="#"><img src="images/opinion-author.png" alt="Man smiling"></a>
+            <div class="ml-4 opinion-text">
+              <a href="#"><h4>swalwell: trump and his gang no different from street gangs i've prosecuted</h4></a>
+              <h4 class="text-muted mb-0">by eric swalwell</h4>
+            </div>
+          </article>
+        </section>
+        <section class="mb-5 latest-news">
+          <h3 class="text-muted pb-2">latest news</h3>
+          <article class="d-flex border-bottom pb-3">
+            <a href="#"><img class="img-fluid" src="images/latest-article.jpg" alt="Man smiling"></a>
+            <a href="#"><h4 class="ml-4">what powers 5 commissioners and coaches think about CA pay for play law</h4></a>
+          </article>
+          <article class="d-flex border-bottom py-3">
+            <a href="#"><img class="img-fluid" src="images/latest-article.jpg" alt="Man smiling"></a>
+            <a href="#"><h4 class="ml-4">what powers 5 commissioners and coaches think about CA pay for play law</h4></a>
+          </article>
+          <article class="d-flex border-bottom py-3">
+            <a href="#"><img class="img-fluid" src="images/latest-article.jpg" alt="Man smiling"></a>
+            <a href="#"><h4 class="ml-4">what powers 5 commissioners and coaches think about CA pay for play law</h4></a>
+          </article>
+          <article class="d-flex border-bottom py-3">
+            <a href="#"><img class="img-fluid" src="images/latest-article.jpg" alt="Man smiling"></a>
+            <a href="#"><h4 class="ml-4">what powers 5 commissioners and coaches think about CA pay for play law</h4></a>
+          </article>
+          <article class="d-flex border-bottom py-3">
+            <a href="#"><img class="img-fluid" src="images/latest-article.jpg" alt="Man smiling"></a>
+            <a href="#"><h4 class="ml-4">what powers 5 commissioners and coaches think about CA pay for play law</h4></a>
+          </article>
+          <article class="d-flex border-bottom py-3">
+            <a href="#"><img class="img-fluid" src="images/latest-article.jpg" alt="Man smiling"></a>
+            <a href="#"><h4 class="ml-4">what powers 5 commissioners and coaches think about CA pay for play law</h4></a>
+          </article>
+          <article class="d-flex py-3">
+            <a href="#"><img class="img-fluid" src="images/latest-article.jpg" alt="Man smiling"></a>
+            <a href="#"><h4 class="ml-4">what powers 5 commissioners and coaches think about CA pay for play law</h4></a>
+          </article>
+        </section>
+        <div class="mb-5 single-insight mx-md-auto">
+          <article>
+            <div class="position-relative">
+              <a href="#"><img class="img-fluid" src="images/insight-article.jpg" alt="Three persons walking out of building"></a>
+              <h3 class="insight position-absolute m-0 px-4 py-2">sponsored insight</h3>
+            </div>
+            <div class="border pt-4 insight-text">
+              <a href="#"><h2 class="heavy">why you should be an engineer &amp; why ABET is important to that path.</h2></a>
+              <p>Do you dream of changing the world? Dow you want to make a practical difference in people's lives? Engineers do both these things. Find out how to join them.</p>
+            </div>
+          </article>
+        </div>
+        <div class="mx-auto newsletter p-4 border mb-5">
+          <div class="d-flex mb-3 align-items-center">
+            <span class="fake-logo"></span>
+            <h3 class="ml-3">sign up for our<br>newsletter</h3>
+          </div>
+          <button type="button" class="btn rounded-0 mb-3">sign up <i class="fas fa-chevron-right"></i></button>
+          <a href="#"><h5>Update your preferences <i class="fas fa-angle-double-right"></i></h5></a>
+        </div>
+        <div class="mb-5 single-insight mx-md-auto">
+          <article>
+            <div class="position-relative">
+              <a href="#"><img class="img-fluid" src="images/insight-article.jpg" alt="Three persons walking out of building"></a>
+              <h3 class="insight position-absolute m-0 px-4 py-2">sponsored insight</h3>
+            </div>
+            <div class="border pt-4 insight-text">
+              <a href="#"><h2 class="heavy">why you should be an engineer &amp; why ABET is important to that path.</h2></a>
+              <p>Do you dream of changing the world? Dow you want to make a practical difference in people's lives? Engineers do both these things. Find out how to join them.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="order-4 col-lg-12 magazine mt-5 row mx-auto">
+        <div class="col-12 row justify-content-end d-none d-md-flex px-0">
+          <h3 class="text-center pb-4 col-9 border-bottom mb-4"><span class="fake-logo align-bottom"></span> in the magazine</h3>
+        </div>
+        <div class="magazine-head mb-5 pr-md-4 col-12 col-md-3">
+          <div class="position-relative">
+            <a href="#"><img class="img-fluid" src="images/magazine-cover-big.jpg" alt="President Donald Trump being carried by the statue of liberty"></a>
+            <a href="#"><h3 class="category position-absolute m-0 px-4 py-2">octover 18 issue</h3></a>
+          </div>
+          <button type="button" class="btn rounded-0 w-100 text-center">see all features <i class="fas fa-chevron-right"></i></button>
+        </div>
+        <h3 class="text-center pb-4 col-12 d-md-none"><span class="fake-logo align-bottom"></span> in the magazine</h3>
+          <article class="col-12 mb-5 col-md-3">
+            <a href="#"><img class="img-fluid" src="images/magazine-cover-small.jpg" alt="President Donald Trump being carried by the statue of liberty"></a>
+            <div class="d-flex mt-3 mb-2 magazine-text">
+              <h3 class="red-white px-2 py-1">cover</h3>
+              <a href="#"><h3 class="white-red px-2 py-1 ml-2">u.s.</h3></a>
+            </div>
+            <a href="#"><h2 class="heavy">'gleefully defiant' trump spoils for fight, but will his playbook fail him?</h2></a>
+          </article>
+          <article class="col-12 mb-5 col-md-3">
+            <a href="#"><img class="img-fluid" src="images/magazine-cover-small.jpg" alt="President Donald Trump being carried by the statue of liberty"></a>
+            <div class="d-flex mt-3 mb-2 magazine-text">
+              <h3 class="red-white px-2 py-1">cover</h3>
+              <a href="#"><h3 class="white-red px-2 py-1 ml-2">u.s.</h3></a>
+            </div>
+            <a href="#"><h2 class="heavy">'gleefully defiant' trump spoils for fight, but will his playbook fail him?</h2></a>
+          </article>
+          <article class="col-12 mb-5 col-md-3">
+            <a href="#"><img class="img-fluid" src="images/magazine-cover-small.jpg" alt="President Donald Trump being carried by the statue of liberty"></a>
+            <div class="d-flex mt-3 mb-2 magazine-text">
+              <h3 class="red-white px-2 py-1">cover</h3>
+              <a href="#"><h3 class="white-red px-2 py-1 ml-2">u.s.</h3></a>
+            </div>
+            <a href="#"><h2 class="heavy">'gleefully defiant' trump spoils for fight, but will his playbook fail him?</h2></a>
+          </article>
+          <article class="col-12 mb-5 col-md-3">
+            <a href="#"><img class="img-fluid" src="images/magazine-cover-small.jpg" alt="President Donald Trump being carried by the statue of liberty"></a>
+            <div class="d-flex mt-3 mb-2 magazine-text">
+              <h3 class="red-white px-2 py-1">cover</h3>
+              <a href="#"><h3 class="white-red px-2 py-1 ml-2">u.s.</h3></a>
+            </div>
+            <a href="#"><h2 class="heavy">'gleefully defiant' trump spoils for fight, but will his playbook fail him?</h2></a>
+          </article>
+          <article class="col-12 mb-5 col-md-3">
+            <a href="#"><img class="img-fluid" src="images/magazine-cover-small.jpg" alt="President Donald Trump being carried by the statue of liberty"></a>
+            <div class="d-flex mt-3 mb-2 magazine-text">
+              <h3 class="red-white px-2 py-1">cover</h3>
+              <a href="#"><h3 class="white-red px-2 py-1 ml-2">u.s.</h3></a>
+            </div>
+            <a href="#"><h2 class="heavy">'gleefully defiant' trump spoils for fight, but will his playbook fail him?</h2></a>
+          </article>
+          <article class="col-12 mb-5 col-md-3">
+            <a href="#"><img class="img-fluid" src="images/magazine-cover-small.jpg" alt="President Donald Trump being carried by the statue of liberty"></a>
+            <div class="d-flex mt-3 mb-2 magazine-text">
+              <h3 class="red-white px-2 py-1">cover</h3>
+              <a href="#"><h3 class="white-red px-2 py-1 ml-2">u.s.</h3></a>
+            </div>
+            <a href="#"><h2 class="heavy">'gleefully defiant' trump spoils for fight, but will his playbook fail him?</h2></a>
+          </article>
+          <article class="col-12 col-md-3">
+            <a href="#"><img class="img-fluid" src="images/magazine-cover-small.jpg" alt="President Donald Trump being carried by the statue of liberty"></a>
+            <div class="d-flex mt-3 mb-2 magazine-text">
+              <h3 class="red-white px-2 py-1">cover</h3>
+              <a href="#"><h3 class="white-red px-2 py-1 ml-2">u.s.</h3></a>
+            </div>
+            <a href="#"><h2 class="heavy">'gleefully defiant' trump spoils for fight, but will his playbook fail him?</h2></a>
+          </article>
+      </div>
+      <section class="order-5 col-12 editor mt-5">
+        <div class="row">
+          <h3 class="text-center mb-4 border-bottom pb-4 col-12"><span class="fake-logo align-bottom"></span> editor's pick</h3>
+            <article class="col-12 col-md-6 col-lg-3">
+              <div class="position-relative">
+                <a href="#"><img class="img-fluid" src="images/featured-article.jpg" alt="Nuclar bomb"></a>
+                <a href="#"><h3 class="position-absolute m-0 px-4 py-2 category">tech & science</h3></a>
+              </div>
+              <a href="#"><h2 class="heavy mt-3">nuclear war between india and pakistan could kill twice as many as WWII</h2></a>
+              <p>The study quantifies just how catastrophic and wide-reaching a nuclear conflict between the two nations would be.</p>
+            </article>
+            <article class="col-12 col-md-6 col-lg-3">
+              <div class="position-relative">
+                <a href="#"><img class="img-fluid" src="images/featured-article.jpg" alt="Nuclar bomb"></a>
+                <a href="#"><h3 class="position-absolute m-0 px-4 py-2 category">tech & science</h3></a>
+              </div>
+              <a href="#"><h2 class="heavy mt-3">nuclear war between india and pakistan could kill twice as many as WWII</h2></a>
+              <p>The study quantifies just how catastrophic and wide-reaching a nuclear conflict between the two nations would be.</p>
+            </article>
+            <article class="col-12 col-md-6 col-lg-3">
+              <div class="position-relative">
+                <a href="#"><img class="img-fluid" src="images/featured-article.jpg" alt="Nuclar bomb"></a>
+                <a href="#"><h3 class="position-absolute m-0 px-4 py-2 category">tech & science</h3></a>
+              </div>
+              <a href="#"><h2 class="heavy mt-3">nuclear war between india and pakistan could kill twice as many as WWII</h2></a>
+              <p>The study quantifies just how catastrophic and wide-reaching a nuclear conflict between the two nations would be.</p>
+            </article>
+            <article class="col-12 col-md-6 col-lg-3">
+              <div class="position-relative">
+                <a href="#"><img class="img-fluid" src="images/featured-article.jpg" alt="Nuclar bomb"></a>
+                <a href="#"><h3 class="position-absolute m-0 px-4 py-2 category">tech & science</h3></a>
+              </div>
+              <a href="#"><h2 class="heavy mt-3">nuclear war between india and pakistan could kill twice as many as WWII</h2></a>
+              <p>The study quantifies just how catastrophic and wide-reaching a nuclear conflict between the two nations would be.</p>
+            </article>
+            <article class="col-12 col-md-6 col-lg-3">
+              <div class="position-relative">
+                <a href="#"><img class="img-fluid" src="images/featured-article.jpg" alt="Nuclar bomb"></a>
+                <a href="#"><h3 class="position-absolute m-0 px-4 py-2 category">tech & science</h3></a>
+              </div>
+              <a href="#"><h2 class="heavy mr-5">nuclear war between india and pakistan could kill twice as many as WWII</h2></a>
+              <p>The study quantifies just how catastrophic and wide-reaching a nuclear conflict between the two nations would be.</p>
+            </article>
+            <article class="col-12 col-md-6 col-lg-3">
+              <div class="position-relative">
+                <a href="#"><img class="img-fluid" src="images/featured-article.jpg" alt="Nuclar bomb"></a>
+                <a href="#"><h3 class="position-absolute m-0 px-4 py-2 category">tech & science</h3></a>
+              </div>
+              <a href="#"><h2 class="heavy mt-3">nuclear war between india and pakistan could kill twice as many as WWII</h2></a>
+              <p>The study quantifies just how catastrophic and wide-reaching a nuclear conflict between the two nations would be.</p>
+            </article>
+            <article class="col-12 col-md-6 col-lg-3">
+              <div class="position-relative">
+                <a href="#"><img class="img-fluid" src="images/featured-article.jpg" alt="Nuclar bomb"></a>
+                <a href="#"><h3 class="position-absolute m-0 px-4 py-2 category">tech & science</h3></a>
+              </div>
+              <a href="#"><h2 class="heavy mt-3">nuclear war between india and pakistan could kill twice as many as WWII</h2></a>
+              <p>The study quantifies just how catastrophic and wide-reaching a nuclear conflict between the two nations would be.</p>
+            </article>
+            <article class="col-12 col-md-6 col-lg-3">
+              <div class="position-relative">
+                <a href="#"><img class="img-fluid" src="images/featured-article.jpg" alt="Nuclar bomb"></a>
+                <a href="#"><h3 class="position-absolute m-0 px-4 py-2 category">tech & science</h3></a>
+              </div>
+              <a href="#"><h2 class="heavy mt-3">nuclear war between india and pakistan could kill twice as many as WWII</h2></a>
+              <p>The study quantifies just how catastrophic and wide-reaching a nuclear conflict between the two nations would be.</p>
+            </article>
+        </div>
+      </section>
+      <section class="order-6 col-12 slideshows mt-5">
+        <h3 class="text-center mb-4 pb-3 border-bottom"><span class="fake-logo align-bottom"></span> featured slideshows</h3>
+        <div class="wrapper border-bottom pb-5 row">
+            <article class="col-12 mb-5 col-md-4">
+              <div class="position-relative">
+                <a href="#"><img class="img-fluid" src="images/slide.webp" alt="Man and woman kissing on their wedding"></a>
+                <a href="#"><h3 class="position-absolute m-0 category slides">17</h3></a>
+              </div>
+              <a href="#"><h2 class="heavy mt-3">Hailey and Justin Bieber Wedding Pictures: Candid Photos from the Big Day</h2></a>
+            </article>
+            <article class="col-12 mb-5 col-md-4">
+              <div class="position-relative">
+                <a href="#"><img class="img-fluid" src="images/slide.webp" alt="Man and woman kissing on their wedding"></a>
+                <a href="#"><h3 class="position-absolute m-0 category slides">17</h3></a>
+              </div>
+              <a href="#"><h2 class="heavy mt-3">Hailey and Justin Bieber Wedding Pictures: Candid Photos from the Big Day</h2></a>
+            </article>
+            <article class="col-12 mb-5 col-md-4">
+              <div class="position-relative">
+                <a href="#"><img class="img-fluid" src="images/slide.webp" alt="Man and woman kissing on their wedding"></a>
+                <a href="#"><h3 class="position-absolute m-0 category slides">17</h3></a>
+              </div>
+              <a href="#"><h2 class="heavy mt-3">Hailey and Justin Bieber Wedding Pictures: Candid Photos from the Big Day</h2></a>
+            </article>
+            <article class="col-12 mb-5 col-md-4">
+              <div class="position-relative">
+                <a href="#"><img class="img-fluid" src="images/slide.webp" alt="Man and woman kissing on their wedding"></a>
+                <a href="#"><h3 class="position-absolute m-0 category slides">17</h3></a>
+              </div>
+              <a href="#"><h2 class="heavy mt-3">Hailey and Justin Bieber Wedding Pictures: Candid Photos from the Big Day</h2></a>
+            </article>
+            <article class="col-12 mb-5 col-md-4">
+              <div class="position-relative">
+                <a href="#"><img class="img-fluid" src="images/slide.webp" alt="Man and woman kissing on their wedding"></a>
+                <a href="#"><h3 class="position-absolute m-0 category slides">17</h3></a>
+              </div>
+              <a href="#"><h2 class="heavy mt-3">Hailey and Justin Bieber Wedding Pictures: Candid Photos from the Big Day</h2></a>
+            </article>
+            <article class="col-12 col-md-4">
+              <div class="position-relative">
+                <a href="#"><img class="img-fluid" src="images/slide.webp" alt="Man and woman kissing on their wedding"></a>
+                <a href="#"><h3 class="position-absolute m-0 category slides">17</h3></a>
+              </div>
+              <a href="#"><h2 class="heavy mt-3">Hailey and Justin Bieber Wedding Pictures: Candid Photos from the Big Day</h2></a>
+            </article>
+        </div>
+      </section>
+      <section class="order-7 col-12 categories pt-5">
+        <h2 class="red text-left">U.S.</h2>
+        <div class="wrapper border-bottom">
+          <div class="categories-contents row">
+            <article class="col-12 mb-4 col-md-4">
+              <a href="#"><img class="img-fluid" src="images/us.webp" alt="Cactus under the sun"></a>
+              <a href="#"><h2 class="heavy mt-2">Trump's Border Wall Crew Bulldozes Through Cacti National Park Protects</h2></a>
+            </article>
+            <article class="col-12 mb-4 col-md-4">
+              <a href="#"><img class="img-fluid" src="images/us.webp" alt="Cactus under the sun"></a>
+              <a href="#"><h2 class="heavy mt-2">Trump's Border Wall Crew Bulldozes Through Cacti National Park Protects</h2></a>
+            </article>
+            <aside class="col-12 pb-5 col-md-4">
+              <article class="d-flex border-bottom pb-3">
+                <a href="#"><img class="img-fluid" src="images/us-related.webp" alt="President Donald Trump"></a>
+                <a href="#"><h4 class="ml-4">Judge Orders Trump to Turn Over Eight Years of Tax Returns to Manhattan DA</h4></a>
+              </article>
+              <article class="d-flex border-bottom py-3">
+                <a href="#"><img class="img-fluid" src="images/us-related.webp" alt="President Donald Trump"></a>
+                <a href="#"><h4 class="ml-4">Judge Orders Trump to Turn Over Eight Years of Tax Returns to Manhattan DA</h4></a>
+              </article>
+              <article class="d-flex py-3">
+                <a href="#"><img class="img-fluid" src="images/us-related.webp" alt="President Donald Trump"></a>
+                <a href="#"><h4 class="ml-4">Judge Orders Trump to Turn Over Eight Years of Tax Returns to Manhattan DA</h4></a>
+              </article>
+            </aside>
+          </div>
+        </div>
+      </section>
+      <section class="order-7 col-12 categories pt-5">
+        <h2 class="red text-left">U.S.</h2>
+        <div class="wrapper border-bottom">
+          <div class="categories-contents row">
+            <article class="col-12 mb-4 col-md-4">
+              <a href="#"><img class="img-fluid" src="images/us.webp" alt="Cactus under the sun"></a>
+              <a href="#"><h2 class="heavy mt-2">Trump's Border Wall Crew Bulldozes Through Cacti National Park Protects</h2></a>
+            </article>
+            <article class="col-12 mb-4 col-md-4">
+              <a href="#"><img class="img-fluid" src="images/us.webp" alt="Cactus under the sun"></a>
+              <a href="#"><h2 class="heavy mt-2">Trump's Border Wall Crew Bulldozes Through Cacti National Park Protects</h2></a>
+            </article>
+            <aside class="col-12 pb-5 col-md-4">
+              <article class="d-flex border-bottom pb-3">
+                <a href="#"><img class="img-fluid" src="images/us-related.webp" alt="President Donald Trump"></a>
+                <a href="#"><h4 class="ml-4">Judge Orders Trump to Turn Over Eight Years of Tax Returns to Manhattan DA</h4></a>
+              </article>
+              <article class="d-flex border-bottom py-3">
+                <a href="#"><img class="img-fluid" src="images/us-related.webp" alt="President Donald Trump"></a>
+                <a href="#"><h4 class="ml-4">Judge Orders Trump to Turn Over Eight Years of Tax Returns to Manhattan DA</h4></a>
+              </article>
+              <article class="d-flex py-3">
+                <a href="#"><img class="img-fluid" src="images/us-related.webp" alt="President Donald Trump"></a>
+                <a href="#"><h4 class="ml-4">Judge Orders Trump to Turn Over Eight Years of Tax Returns to Manhattan DA</h4></a>
+              </article>
+            </aside>
+          </div>
+        </div>
+      </section>
+      <section class="order-7 col-12 categories pt-5">
+        <h2 class="red text-left">U.S.</h2>
+        <div class="wrapper border-bottom">
+          <div class="categories-contents row">
+            <article class="col-12 mb-4 col-md-4">
+              <a href="#"><img class="img-fluid" src="images/us.webp" alt="Cactus under the sun"></a>
+              <a href="#"><h2 class="heavy mt-2">Trump's Border Wall Crew Bulldozes Through Cacti National Park Protects</h2></a>
+            </article>
+            <article class="col-12 mb-4 col-md-4">
+              <a href="#"><img class="img-fluid" src="images/us.webp" alt="Cactus under the sun"></a>
+              <a href="#"><h2 class="heavy mt-2">Trump's Border Wall Crew Bulldozes Through Cacti National Park Protects</h2></a>
+            </article>
+            <aside class="col-12 pb-5 col-md-4">
+              <article class="d-flex border-bottom pb-3">
+                <a href="#"><img class="img-fluid" src="images/us-related.webp" alt="President Donald Trump"></a>
+                <a href="#"><h4 class="ml-4">Judge Orders Trump to Turn Over Eight Years of Tax Returns to Manhattan DA</h4></a>
+              </article>
+              <article class="d-flex border-bottom py-3">
+                <a href="#"><img class="img-fluid" src="images/us-related.webp" alt="President Donald Trump"></a>
+                <a href="#"><h4 class="ml-4">Judge Orders Trump to Turn Over Eight Years of Tax Returns to Manhattan DA</h4></a>
+              </article>
+              <article class="d-flex py-3">
+                <a href="#"><img class="img-fluid" src="images/us-related.webp" alt="President Donald Trump"></a>
+                <a href="#"><h4 class="ml-4">Judge Orders Trump to Turn Over Eight Years of Tax Returns to Manhattan DA</h4></a>
+              </article>
+            </aside>
+          </div>
+        </div>
+      </section>
+      <section class="order-7 col-12 categories pt-5">
+        <h2 class="red text-left">U.S.</h2>
+        <div class="wrapper border-bottom">
+          <div class="categories-contents row">
+            <article class="col-12 mb-4 col-md-4">
+              <a href="#"><img class="img-fluid" src="images/us.webp" alt="Cactus under the sun"></a>
+              <a href="#"><h2 class="heavy mt-2">Trump's Border Wall Crew Bulldozes Through Cacti National Park Protects</h2></a>
+            </article>
+            <article class="col-12 mb-4 col-md-4">
+              <a href="#"><img class="img-fluid" src="images/us.webp" alt="Cactus under the sun"></a>
+              <a href="#"><h2 class="heavy mt-2">Trump's Border Wall Crew Bulldozes Through Cacti National Park Protects</h2></a>
+            </article>
+            <aside class="col-12 pb-5 col-md-4">
+              <article class="d-flex border-bottom pb-3">
+                <a href="#"><img class="img-fluid" src="images/us-related.webp" alt="President Donald Trump"></a>
+                <a href="#"><h4 class="ml-4">Judge Orders Trump to Turn Over Eight Years of Tax Returns to Manhattan DA</h4></a>
+              </article>
+              <article class="d-flex border-bottom py-3">
+                <a href="#"><img class="img-fluid" src="images/us-related.webp" alt="President Donald Trump"></a>
+                <a href="#"><h4 class="ml-4">Judge Orders Trump to Turn Over Eight Years of Tax Returns to Manhattan DA</h4></a>
+              </article>
+              <article class="d-flex py-3">
+                <a href="#"><img class="img-fluid" src="images/us-related.webp" alt="President Donald Trump"></a>
+                <a href="#"><h4 class="ml-4">Judge Orders Trump to Turn Over Eight Years of Tax Returns to Manhattan DA</h4></a>
+              </article>
+            </aside>
+          </div>
+        </div>
+      </section>
+      <section class="order-7 col-12 categories pt-5">
+        <h2 class="red text-left">U.S.</h2>
+        <div class="wrapper border-bottom">
+          <div class="categories-contents row">
+            <article class="col-12 mb-4 col-md-4">
+              <a href="#"><img class="img-fluid" src="images/us.webp" alt="Cactus under the sun"></a>
+              <a href="#"><h2 class="heavy mt-2">Trump's Border Wall Crew Bulldozes Through Cacti National Park Protects</h2></a>
+            </article>
+            <article class="col-12 mb-4 col-md-4">
+              <a href="#"><img class="img-fluid" src="images/us.webp" alt="Cactus under the sun"></a>
+              <a href="#"><h2 class="heavy mt-2">Trump's Border Wall Crew Bulldozes Through Cacti National Park Protects</h2></a>
+            </article>
+            <aside class="col-12 pb-5 col-md-4">
+              <article class="d-flex border-bottom pb-3">
+                <a href="#"><img class="img-fluid" src="images/us-related.webp" alt="President Donald Trump"></a>
+                <a href="#"><h4 class="ml-4">Judge Orders Trump to Turn Over Eight Years of Tax Returns to Manhattan DA</h4></a>
+              </article>
+              <article class="d-flex border-bottom py-3">
+                <a href="#"><img class="img-fluid" src="images/us-related.webp" alt="President Donald Trump"></a>
+                <a href="#"><h4 class="ml-4">Judge Orders Trump to Turn Over Eight Years of Tax Returns to Manhattan DA</h4></a>
+              </article>
+              <article class="d-flex py-3">
+                <a href="#"><img class="img-fluid" src="images/us-related.webp" alt="President Donald Trump"></a>
+                <a href="#"><h4 class="ml-4">Judge Orders Trump to Turn Over Eight Years of Tax Returns to Manhattan DA</h4></a>
+              </article>
+            </aside>
+          </div>
+        </div>
+      </section>
+      <section class="order-7 col-12 categories pt-5">
+        <h2 class="red text-left">U.S.</h2>
+        <div class="wrapper border-bottom">
+          <div class="categories-contents row">
+            <article class="col-12 mb-4 col-md-4">
+              <a href="#"><img class="img-fluid" src="images/us.webp" alt="Cactus under the sun"></a>
+              <a href="#"><h2 class="heavy mt-2">Trump's Border Wall Crew Bulldozes Through Cacti National Park Protects</h2></a>
+            </article>
+            <article class="col-12 mb-4 col-md-4">
+              <a href="#"><img class="img-fluid" src="images/us.webp" alt="Cactus under the sun"></a>
+              <a href="#"><h2 class="heavy mt-2">Trump's Border Wall Crew Bulldozes Through Cacti National Park Protects</h2></a>
+            </article>
+            <aside class="col-12 pb-5 col-md-4">
+              <article class="d-flex border-bottom pb-3">
+                <a href="#"><img class="img-fluid" src="images/us-related.webp" alt="President Donald Trump"></a>
+                <a href="#"><h4 class="ml-4">Judge Orders Trump to Turn Over Eight Years of Tax Returns to Manhattan DA</h4></a>
+              </article>
+              <article class="d-flex border-bottom py-3">
+                <a href="#"><img class="img-fluid" src="images/us-related.webp" alt="President Donald Trump"></a>
+                <a href="#"><h4 class="ml-4">Judge Orders Trump to Turn Over Eight Years of Tax Returns to Manhattan DA</h4></a>
+              </article>
+              <article class="d-flex py-3">
+                <a href="#"><img class="img-fluid" src="images/us-related.webp" alt="President Donald Trump"></a>
+                <a href="#"><h4 class="ml-4">Judge Orders Trump to Turn Over Eight Years of Tax Returns to Manhattan DA</h4></a>
+              </article>
+            </aside>
+          </div>
+        </div>
+      </section>
+      <div class="order-8 col-lg-8 subscribe mt-5 pr-md-5">
+        <h2 class="red smaller heavy">SUBSCRIBE</h2>
+        <article class="p-5 row">
+          <div class="col-12 subscribe-images position-relative col-md-4">
+            <img class="position-relative" src="images/subscribe.jpg" alt="Newsweek magazine">
+            <img class="position-absolute" src="images/subscribe.jpg" alt="Newsweek magazine">
+          </div>
+          <div class="col-12 subscribe-text mt-5 px-0 text-center col-md-8">
+            <h2 class="heavy my-4">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h2>
+            <p class="my-4">All Access + Weekly Delivery.<br>Choose A Membership That's Perfect for You!</p>
+            <button class="red-bg btn rounded-0 mt-3">SUBSCRIBE <i class="fas fa-chevron-right"></i></button>
+          </div>
+        </article>
+      </div>
+      <div class="order-9 col-lg-4 newsletter-bottom mt-5">
+        <h2 class="red smaller heavy mb-3">NEWSLETTER</h2>
+        <article class="newsletter-bottom-contents row">
+          <div class="newsletter-bottom-images col-12 col-md-3 col-lg-4 px-md-0"></div>
+          <div class="pl-md-5 col-12 border px-5 pt-4 pb-5 newsletter-bottom-text text-center col-md-9 px-md-0 col-lg-8">
+            <h2 class="heavy my-4">Daily Briefing</h2>
+            <p class="my-4 px-4">Take back your inbox. Sign up for our newsletter and start making sense of the world around you.</p>
+            <button class="red-bg btn rounded-0 mt-3">SIGN UP <i class="fas fa-chevron-right"></i></button>
+          </div>
+        </article>
+      </div>
+      <footer class="order-10 col-12 mt-5">
+        <div class="wrapper border-top px-lg-5">
+          <div class="copyright pt-5 border-bottom">
+            <div class="footer-logo-copyright pb-md-3">
+              <a href="#"><img src="images/logo-red.svg" alt="Newsweek"></a>
+              <p class="mt-2 mb-0 ml-md-4">&copy; 2019 NEWSWEEK</p>
+            </div>
+            <ul class="list-unstyled d-flex social-links mb-lg-0 align-items-center">
+              <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fab fa-tumblr"></i></a></li>
+              <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+          </div>
+          <div class="site-pages pt-3 row">
+            <ul class="list-unstyled page-links col-12">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Corrections</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Editorial Guidelines</a></li>
+              <li><a href="#">Advertise</a></li>
+              <li><a href="#">Copyright</a></li>
+              <li><a href="#">Terms &amp; Conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Cookie Policy</a></li>
+              <li><a href="#">Terms of Sale</a></li>
+              <li><a href="#">Archive</a></li>
+              <li><a href="#">Announcements</a></li>
+              <li><a href="#">Consent Preferences</a></li>
+            </ul>
+            <div class="d-flex edition-wrapper col-12">
+              <p>Editions:</p>
+              <ul class="list-unstyled edition-links">
+                <li><a href="#">U.S. Edition</a></li>
+                <li><a href="#">U.S. Edition</a></li>
+                <li><a href="#">U.S. Edition</a></li>
+                <li><a href="#">U.S. Edition</a></li>
+                <li><a href="#">U.S. Edition</a></li>
+                <li><a href="#">U.S. Edition</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+</body>
+
+</html>
