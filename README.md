@@ -1,4 +1,5 @@
-# Using Bootstrap
+# newsweek-clone
+
 A cloning of the [Newsweek home page](https://www.newsweek.com/) using
 Bootstrap. The goal is to use Bootstrap grid layout methods for positioning
 the elements on the page and making this latest responsive.
