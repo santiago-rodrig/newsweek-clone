@@ -25,6 +25,12 @@ cd newsweek-clone
 
 3. Open `index.html` with your browser
 
+## License
+
+This project is licensed under the [MIT](./LICENSE) license, which
+basically means that you can do whatever you want with the code under the
+condition of giving credit to its author and noticing the license.
+
 ## Contact
 
 You can reach me out at the following URLs
